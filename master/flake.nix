@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-plotly-master.flake = false;
+  inputs.src-plotly-master.ref   = "refs/heads/master";
   inputs.src-plotly-master.owner = "SciNim";
-  inputs.src-plotly-master.ref   = "master";
   inputs.src-plotly-master.repo  = "nim-plotly";
   inputs.src-plotly-master.type  = "github";
   
