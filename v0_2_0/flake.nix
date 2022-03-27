@@ -11,6 +11,7 @@
   inputs.src-plotly-v0_2_0.ref   = "refs/tags/v0.2.0";
   inputs.src-plotly-v0_2_0.owner = "SciNim";
   inputs.src-plotly-v0_2_0.repo  = "nim-plotly";
+  inputs.src-plotly-v0_2_0.dir   = "";
   inputs.src-plotly-v0_2_0.type  = "github";
   
   inputs."chroma".owner = "nim-nix-pkgs";

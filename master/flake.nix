@@ -11,6 +11,7 @@
   inputs.src-plotly-master.ref   = "refs/heads/master";
   inputs.src-plotly-master.owner = "SciNim";
   inputs.src-plotly-master.repo  = "nim-plotly";
+  inputs.src-plotly-master.dir   = "";
   inputs.src-plotly-master.type  = "github";
   
   inputs."chroma".owner = "nim-nix-pkgs";
