@@ -1,0 +1,14 @@
+* v0.3.2
+- fix behavior of =show= when =--threads:on= for =Grid= usage, in
+  particular for example 18. =filename= argument is now optional,
+  implying just viewing a plot when none given instead of saving.
+* v0.3.1
+- fix link to docs in the README
+* v0.3.0
+- =nim-plotly= now lives under the SciNim organization
+- adds option for auto resizing of plots (=autoResize= argument to
+  =show/saveImage=); #72
+- temporary HTML files of plotly are now not removed by default
+  (=removeTempFiles= argument to =show/saveImage=); #72
+- temporary HTML files are stored in a =nim_plotly= subdirectory and
+  the file names are generated based on a timestamp; #72
